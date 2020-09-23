@@ -5,7 +5,7 @@
         <title>Inicio de sesion</title>
         
         <!--Enlace al archivo css-->
-        <link href="/static/css/index.css" type="text/css"
+        <link href="static/css/index.css" type="text/css"
                 rel="stylesheet" /> 
 
          <!--JQUERY-->
@@ -23,16 +23,22 @@
 
 
     <body>
+
+        <div class="top">
+
+        </div>
+
         <div class="modal-dialog text-center">
-            <div class="col-sm-8">
-                <div class="modal-content">
+            <div class="col-sm-8 main-section"> <!--Indica que se usara 3/4 de la pagina-->
+
+                <div class="modal-content" id="holi"> 
                     <form>
-                        <div class="form-group">
+                        <div class="form-group" id="user-group"> <!--Los input se deben de poner en la clase form-group-->
                             <input type="text" class="form-control" placeholder="Nombre de usuario" required>
                         </div>
                    
 
-                        <div class="form-group">
+                        <div class="form-group" id="contrasena-group">
                             <input type="password" class="form-control" placeholder="Contrase&ntilde;a" required>
                         </div>
                         
@@ -41,13 +47,29 @@
                         
                     </form>
 
-                    <!--Ocupa todo el ancho del cuadro con col-12-->
-                    <!--La etiqueta div puede ocupar mas de nombres de clases-->
-                    <div class="col-12">
+                    
+                    <!--El atributo de clase puede ocupar mas de un nombre de clases-->
+                    <div class="col-12 forgot"> <!--Ocupa todo el ancho del cuadro con col-12-->
                         <a href="#">¿Olvidaste tu contraseña?</a>
                     </div>
 
                 </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <h1>hola</h1>
+        </div>
+
+        <footer  style="width:100%; margin-left: 0px;"  >
+
+
+        <div class="pie-pagina text-center" >
+            <div class="container-fluid" >
+                <h4>ESCUELA SUPERIOR DE INGENIERIA MECANICA Y ELECTRICA UNIDAD ZACATENCO</h3>
+                <small>"La tecnica al servicio de la patria"</small><br />
+                <p>Unidad de Informática</p>
+                    
             </div>
         </div>
     </body>
