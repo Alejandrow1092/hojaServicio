@@ -1,16 +1,49 @@
 
 body{
-    margin: 0 auto;
+ 
 }
 
-.header{
-    position: absolute;
+.top{
     background-color: #682444;
-    min-width:100%;
+    
     height: 50px;
-    margin: 0 auto;
+    margin:auto;
 }
 
+.menu{
+    position: relative;
+    
+}
+
+.main-section{
+    margin: 150px auto;
+    
+    padding: 0;
+}
+
+.tabla{
+    position: relative;
+    margin-bottom: 50%;
+    background-color: red;
+
+}
+
+thead{
+    background-color: #682444;
+    color: white;
+}
+
+.modal-content#modal{
+    
+    opacity: .85;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 3px #cfc9c9;
+
+    background-color: #dedfe0;
+    
+}
+
+/*
 .container{
     display: inline-block;
     cursor: pointer;
@@ -37,25 +70,25 @@ body{
     color: white;
 }
 
-/*Se rota la primer barra*/
+/*Se rota la primer barra
 .change .bar1{
     -webkit-transform: rotate(-45deg) translate(-9x, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-/*Se esconde la segunda barra*/
+/*Se esconde la segunda barra
 .change .bar2{
     opacity: 0;
 }
 
-/*Se rota la tercer barra*/
+/*Se rota la tercer barra
 
 .change .bar3{
     -webkit-transform: rotate(45deg) translate(-8x, 8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-/*Estilo del menu despegable >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+/*Estilo del menu despegable >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><
 
 .menu{
     background-color: rgb(208, 211, 212);
@@ -84,13 +117,13 @@ body{
     text-decoration: none;
   }
   
-  /* Active/current link */
+  /* Active/current link 
   .sidebar a {
     background-color: ;
     color: black;
   }
   
-  /* Links on mouse-over */
+  /* Links on mouse-over 
   .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
@@ -99,3 +132,4 @@ body{
 
 
 
+*/
