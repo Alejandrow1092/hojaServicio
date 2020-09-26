@@ -25,38 +25,35 @@
 
     <body>
 
+        <!--<a class="navbar-brand" href="#">
+                    <img src="static/imagenes/escudo.jpg" widht="40" height="40">
+                </a>-->
+
         <div class="top">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #682444;">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#682444;">
                 <a class="navbar-brand" href="#">
                     <img src="static/imagenes/escudo.jpg" widht="40" height="40">
                 </a>
-
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                
-                <div class="menu">
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
                         <li class="nav-item active">
-                        <a class="nav-link" href="#">Crear Servicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Crear Servicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Configuracion de usuario <span class="sr-only">(current)</span></a>
-                            </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Cerrar sesion</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Cerrar sesion</a>
                         </li>
-                    </ul>
-                    
-                    </div>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
                 </div>
-              </nav>
+            </nav>
             
         </div>
 
@@ -82,6 +79,18 @@
 
             
         </div>
+
+        <footer  style="width:100%; margin-left: 0px;"  >
+
+
+            <div class="pie-pagina text-center" >
+                <div class="container-fluid" >
+                    <h4>ESCUELA SUPERIOR DE INGENIERIA MECANICA Y ELECTRICA UNIDAD ZACATENCO</h3>
+                    <small>"La técnica al servicio de la patria"</small><br />
+                    <p>Unidad de Informática</p>
+                        
+                </div>
+            </div>
 
     </body>
 
