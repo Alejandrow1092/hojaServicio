@@ -80,18 +80,17 @@
             
         </div>
 
-        <footer  style="width:100%; margin-left: 0px;"  >
+        <footer  style="width:100%; margin: 0px;"  >
 
 
-            <div class="pie-pagina text-center" >
-                <div class="container-fluid" >
-                    <h4>ESCUELA SUPERIOR DE INGENIERIA MECANICA Y ELECTRICA UNIDAD ZACATENCO</h4>
-                    <small>"Laaa técnica al servicio de la patria"</small><br />
-                    <p>Unidad de Informática</p>
-                        
-                </div>
-            </div>
-
+<div class="pie-pagina text-center" >
+    <div class="container-fluid" >
+        <h4>ESCUELA SUPERIOR DE INGENIERIA MECANICA Y ELECTRICA UNIDAD ZACATENCO</h3>
+        <small>"La técnica al servicio de la patria"</small><br />
+        <p>Unidad de Informática</p>
+            
+    </div>
+</div>
     </body>
 
 </html>
